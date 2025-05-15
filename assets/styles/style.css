@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #f6f4f4;
+    height: 400vh;
+}
+
+:root{
+    --preto: #0000;
+    --cinza: #959595;
+    --cards: rgb(247, 246, 246);
+}
+
+/*header/cabeçalho*/
+.cabecalho{
+    margin-top: 1rem;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+a:link {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+
+/*título principal*/
+.space{
+    font-family:sans-serif;
+    display: flex;
+    padding-top: 7rem;
+    justify-content: space-around;
+}
+
+.text01{
+    font-family:sans-serif;
+    font-size: 35px;
+    color: var(--cinza)
+}
+
+
+/*seções de ajuda*/
+.perfilHelp{
+    display: flex;
+}
+
+.pergunta{
+    margin-left: 1rem;
+}
+
+.orientacao1{
+    margin-top: 1rem;
+    margin-left: -12.5rem;
+}
+
+.orientacao2{
+    margin-top: 1rem;
+    margin-left: -9rem;
+}
+
+
+
+
+/*tipos de produtos*/
+.aparelhos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+    text-align: center;
+    
+}
+
+.centralizarImg{
+    display: flex;
+    justify-content: center;
+}
+
+/*título dos cards de orientação*/
+.novidades{
+    margin-top: 9rem;
+    display: flex;
+    margin-left: 8.5rem;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:sans-serif;
+}
+
+/*titulo-cards-ajuda*/
+
+.ajuda{
+    margin-top: 9rem;
+    display: flex;
+    margin-left: 1rem;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:sans-serif;
+}
+
+.text-novidades{
+    color: var(--cinza);
+}
+
+/*Cards produtos*/
+
+.cards-produtos{
+    margin-top: 1rem;
+    margin-left: 7.5rem;
+}
+
+.produto01{
+    width: 25rem;
+    height: 35rem;
+    border-radius: 1rem;
+    background-image: linear-gradient( #D6EBF6,#fff);
+}
+
+.produto02{
+    width: 25rem;
+    height: 35rem;
+    border-radius: 1rem;
+    background-image: radial-gradient(#070000, #1a1212);
+}
+
+.produto03{
+    width: 25rem;
+    height: 35rem;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+
+
+.caracteres-iphone{
+    color: #fff;
+    margin-top: .5rem;
+}
+
+.modificar-caracteres{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+
+.caracteres{
+    margin-top: .5rem;
+}
+
+
+
+.imagemProduto01{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagemProduto-appleWatch1{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.imagemProduto-appleWatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+    width: 13rem;
+    height: 17rem;
+}
+
+/*appleWatchPreto*/
+
+.imagemProduto-WatchPreto{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*iphone16e*/
+
+.imagemProduto-iphone16e{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*ipads-coloriodos*/
+
+.imagem-ipads-coloridos{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*pc-apple*/
+
+.imagem-pc-apple{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*iphone-16-normal*/
+
+.produto-iphone16-normal{
+    width: 25rem;
+    height: 35rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(#7785C2,#7785C2, #D8E0F5, #D8E0F5);
+}
+
+/*apple-watch-2-ultra*/
+
+.imagem-watch-2-ultra{
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+}
+
+.produto-watch-2-ultra{
+    width: 25rem;
+    height: 35rem;
+    border-radius: 1rem;
+    background-color: #000;
+    color: #fff;
+}
+
+/*pulseira-relogio*/
+
+.imagem-pulseira-relogio{
+    margin-top: 6.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.produto-pulseira-relogio{
+    width: 25rem;
+    height: 35rem;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*cards-ajuda*/
+
+.cards-ajuda{
+    display: flex;
+    margin-left: auto;
+    margin-top: 3rem;
+}
+
+.box-help{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+    width: 25rem;
+    height: 35rem;
+    margin-inline: .7rem;
+    border-radius: 1rem;
+}
+
+.text-content{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.title-help{
+    margin-top: 1rem;
+    font-size: 22px;
+}
+
+.description{
+    font-size: 13px;
+}
+
+
+/*scrool*/
+
+.scroll-horizontal {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 10px;
+}
+
+
