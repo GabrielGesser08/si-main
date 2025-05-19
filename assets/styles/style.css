@@ -21,6 +21,7 @@ body{
     margin-top: 1rem;
     justify-content: space-evenly;
     display: flex;
+        flex-wrap: wrap;
 }
 
 a:link {
@@ -28,6 +29,8 @@ a:link {
     text-decoration: none;
     color: black;
     background-color: transparent;
+    font-size: 20px;
+        flex-wrap: wrap;
 }
 
 
@@ -74,7 +77,7 @@ a:link {
     justify-content: space-evenly;
     margin-top: 6rem;
     text-align: center;
-    
+        flex-wrap: wrap;
 }
 
 .centralizarImg{
@@ -90,6 +93,8 @@ a:link {
     font-size: 30px;
     font-weight: 700;
     font-family:sans-serif;
+    justify-content: center;
+        flex-wrap: wrap;
 }
 
 /*titulo-cards-ajuda*/
@@ -101,6 +106,7 @@ a:link {
     font-size: 30px;
     font-weight: 700;
     font-family:sans-serif;
+        flex-wrap: wrap;
 }
 
 .text-novidades{
@@ -112,6 +118,10 @@ a:link {
 .cards-produtos{
     margin-top: 1rem;
     margin-left: 7.5rem;
+    display: block;
+    justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 1.5rem;
 }
 
 .produto01{
@@ -119,6 +129,7 @@ a:link {
     height: 35rem;
     border-radius: 1rem;
     background-image: linear-gradient( #D6EBF6,#fff);
+        flex-wrap: wrap;
 }
 
 .produto02{
@@ -126,6 +137,7 @@ a:link {
     height: 35rem;
     border-radius: 1rem;
     background-image: radial-gradient(#070000, #1a1212);
+        flex-wrap: wrap;
 }
 
 .produto03{
@@ -133,6 +145,7 @@ a:link {
     height: 35rem;
     border-radius: 1rem;
     background-color: #fff;
+        flex-wrap: wrap;
 }
 
 
@@ -215,6 +228,7 @@ a:link {
     height: 35rem;
     border-radius: 1rem;
     background-image: linear-gradient(#7785C2,#7785C2, #D8E0F5, #D8E0F5);
+        flex-wrap: wrap;
 }
 
 /*apple-watch-2-ultra*/
@@ -231,6 +245,7 @@ a:link {
     border-radius: 1rem;
     background-color: #000;
     color: #fff;
+        flex-wrap: wrap;
 }
 
 /*pulseira-relogio*/
@@ -247,14 +262,22 @@ a:link {
     border-radius: 1rem;
     background-color: #ffffff;
     color: #000000;
+        flex-wrap: wrap;
 }
 
 /*cards-ajuda*/
+
+.ajuda{
+    justify-content: center;
+}
 
 .cards-ajuda{
     display: flex;
     margin-left: auto;
     margin-top: 3rem;
+    flex-wrap: wrap;
+    row-gap: 1.5rem;
+    justify-content: center;
 }
 
 .box-help{
@@ -264,6 +287,7 @@ a:link {
     height: 35rem;
     margin-inline: .7rem;
     border-radius: 1rem;
+        flex-wrap: wrap;
 }
 
 .text-content{
@@ -277,6 +301,7 @@ a:link {
 }
 
 .description{
+    margin-top: 1rem;
     font-size: 13px;
 }
 
@@ -290,6 +315,5 @@ a:link {
     white-space: nowrap;
     gap: 20px; /* Espaçamento entre os itens */
     padding: 10px;
+    justify-content: center;
 }
-
-
